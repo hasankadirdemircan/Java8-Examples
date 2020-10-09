@@ -19,4 +19,4 @@ public class ConsumerTest01 {
 }
 /**Outputs:
 JAVA
- */
+*/
