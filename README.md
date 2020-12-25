@@ -10,6 +10,7 @@ Türkçe kaynak oluşturmayı amaçlıyorum.
 - [Predicate](#predicate)
 - [Consumer](#consumer)
 - [Function](#function)
+- [Supplier](#supplier)
 
 ## Functional Interface
 - [Blog](https://medium.com/@hkdemircan/functional-interface-lambda-expression-diamond-problem-a30072af52c2)
@@ -26,3 +27,7 @@ Türkçe kaynak oluşturmayı amaçlıyorum.
 ## Function
 - [Blog](https://hkdemircan.medium.com/java8-function-c2fcb2fb1304)
 - [Java](https://github.com/hasankadirdemircan/Java8-Examples/tree/master/Function/src/com/hkdemircan)
+
+## Supplier
+- [Blog](https://hkdemircan.medium.com/java8-supplier-412204dbe656)
+- [Java](https://github.com/hasankadirdemircan/Java8-Examples/tree/master/Supplier/src/com/hkdemircan)
