@@ -1,7 +1,7 @@
 package functional.interfaces;
 
 @FunctionalInterface
-interface Sprint{
+interface Sprint {
     public boolean equals(Object o);
     // bu method java.lang.Object sinifinda yer aldigi icin count artmiyor.
     // yani hic abstract method yokmus gibi sayiyoruz ve
@@ -12,5 +12,6 @@ interface Sprint{
     public void make();
     // make abstract methodu ile Functional Interface mantigina uymus olduk.
 }
+
 public class FunctionalInterfaceTest03 {
 }

@@ -11,7 +11,7 @@ public class StreamTerminalReduceTest02 {
         System.out.println(word); // Xw1o2l3f4
 
         Stream<String> stream2 = Stream.of("w", "o", "l", "f");
-        String word2 = stream2.reduce("", (s, c) -> s + c +"--");
+        String word2 = stream2.reduce("", (s, c) -> s + c + "--");
         System.out.println(word2); //w--o--l--f--
 
     }

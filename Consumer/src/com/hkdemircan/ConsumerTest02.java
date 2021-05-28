@@ -11,27 +11,28 @@ public class ConsumerTest02 {
 
         // 1. use-case
         Consumer<Integer> c1 = x -> System.out.println(x * 2);
-        Stream.of(1,2).forEach(c1);
+        Stream.of(1, 2).forEach(c1);
 
         // 2. use-case
         Consumer<Integer> c2 = (Integer x) -> System.out.println(x);
-        Stream.of(1,2).forEach(c2);
+        Stream.of(1, 2).forEach(c2);
 
         // 3. use-case
-        Stream.of(1,2).forEach(x -> System.out.println(x+2));
+        Stream.of(1, 2).forEach(x -> System.out.println(x + 2));
 
         // 4. use-case
-        Stream.of(1,2).forEach(System.out::println);
+        Stream.of(1, 2).forEach(System.out::println);
 
     }
 }
-/**Outputs:
- 2
- 4
- 1
- 2
- 3
- 4
- 1
- 2
+/**
+ * Outputs:
+ * 2
+ * 4
+ * 1
+ * 2
+ * 3
+ * 4
+ * 1
+ * 2
  */

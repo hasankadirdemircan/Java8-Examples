@@ -14,13 +14,14 @@ public class FunctionTest04 {
     }
 }
 
-class Utility{
+class Utility {
 
-    public static int calculateLengthOfTemp(String str){
+    public static int calculateLengthOfTemp(String str) {
         return str.length();
     }
 }
-/**Outputs:
- 10
- 10
+/**
+ * Outputs:
+ * 10
+ * 10
  */

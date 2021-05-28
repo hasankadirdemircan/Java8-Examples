@@ -1,9 +1,10 @@
 package functional.interfaces;
 
 @FunctionalInterface
-interface LambdaFunctionWithParameter{
+interface LambdaFunctionWithParameter {
     void message(String msg);
 }
+
 public class LambdaTest02 {
 
     public static void main(String[] args) {

@@ -25,25 +25,25 @@ public class BiFunctionTest01 {
 
         System.out.println("-------------------Example 03--------------------------");
 
-        String stringResult = powToString(2,4,
-                (int1, int2)->Math.pow(int1, int2),
-                x->x.toString());
+        String stringResult = powToString(2, 4,
+                (int1, int2) -> Math.pow(int1, int2),
+                x -> x.toString());
         System.out.println(stringResult);
     }
 
     public static String powToString(Integer integer1, Integer integer2,
-                                    BiFunction<Integer, Integer, Double> biFunction,
-                                    Function<Double, String> function) {
+                                     BiFunction<Integer, Integer, Double> biFunction,
+                                     Function<Double, String> function) {
 
         return biFunction.andThen(function).apply(integer1, integer2);
 
     }
 }
 /**
- -------------------Example 01--------------------------
- java8 biFunction
- -------------------Example 02--------------------------
- 0
- -------------------Example 03--------------------------
- 16.0
+ * -------------------Example 01--------------------------
+ * java8 biFunction
+ * -------------------Example 02--------------------------
+ * 0
+ * -------------------Example 03--------------------------
+ * 16.0
  */

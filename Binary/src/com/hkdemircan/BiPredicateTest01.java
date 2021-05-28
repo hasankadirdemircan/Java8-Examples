@@ -21,15 +21,15 @@ public class BiPredicateTest01 {
         filterList(integerList, 45, listContains);
     }
 
-    static boolean filterBiPredicate(String a, Integer b, BiPredicate<String, Integer> biPredicate){
-        return biPredicate.test(a,b);
+    static boolean filterBiPredicate(String a, Integer b, BiPredicate<String, Integer> biPredicate) {
+        return biPredicate.test(a, b);
     }
 
-    static boolean filterList(List integerList, Integer expectValue, BiPredicate<List<Integer>, Integer> biPredicate){
+    static boolean filterList(List integerList, Integer expectValue, BiPredicate<List<Integer>, Integer> biPredicate) {
         return biPredicate.test(integerList, expectValue);
     }
 }
 /**
- false
- true
+ * false
+ * true
  */

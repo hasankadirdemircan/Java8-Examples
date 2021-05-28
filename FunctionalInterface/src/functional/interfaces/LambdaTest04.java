@@ -1,9 +1,10 @@
 package functional.interfaces;
 
 @FunctionalInterface
-interface LambdaCalculator{
+interface LambdaCalculator {
     int process(int number1, int number2);
 }
+
 public class LambdaTest04 {
 
     public static void main(String[] args) {

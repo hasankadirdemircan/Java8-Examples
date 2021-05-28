@@ -1,7 +1,7 @@
 package functional.interfaces;
 
 @FunctionalInterface
-interface LambdaFunction{
+interface LambdaFunction {
     void message();
 }
 

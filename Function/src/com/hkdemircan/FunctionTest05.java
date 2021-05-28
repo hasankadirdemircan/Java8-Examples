@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 public class FunctionTest05 {
     public static void main(String[] args) {
         Function<String, Integer> parseInt = Integer::parseInt;
-        Function<Integer, Integer> incrementExact =  Math::incrementExact;
+        Function<Integer, Integer> incrementExact = Math::incrementExact;
 
         Function<String, Integer> parseIntAndIncrecementExact = parseInt.andThen(incrementExact);
         Function<String, Integer> compose = incrementExact.compose(parseInt);
@@ -29,21 +29,22 @@ public class FunctionTest05 {
 
     }
 }
-/**Outputs:
- -2
- 12
- 26
- 31
- 0
- -10
- -------------------------------------
- A A
- B B
- C C
- D D
- --------------short use--------------
- A A
- B B
- C C
- D D
+/**
+ * Outputs:
+ * -2
+ * 12
+ * 26
+ * 31
+ * 0
+ * -10
+ * -------------------------------------
+ * A A
+ * B B
+ * C C
+ * D D
+ * --------------short use--------------
+ * A A
+ * B B
+ * C C
+ * D D
  */

@@ -11,6 +11,7 @@ public class SupplierTest01 {
         System.out.println(supplier01.get());
     }
 }
-/**Outputs:
- Supplier Example
+/**
+ * Outputs:
+ * Supplier Example
  */

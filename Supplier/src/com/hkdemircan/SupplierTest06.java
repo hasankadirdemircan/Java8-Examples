@@ -1,4 +1,5 @@
 package com.hkdemircan;
+
 import java.util.Optional;
 import java.util.function.Supplier;
 
@@ -14,11 +15,11 @@ public class SupplierTest06 {
         return employee;
     }
 
-    public static Optional<Employee> findNameById(Long id){
+    public static Optional<Employee> findNameById(Long id) {
         Employee employee;
-        if(id == 1){
-           employee = factory(() -> new Employee(1L, "java8", 25));
-        }else{
+        if (id == 1) {
+            employee = factory(() -> new Employee(1L, "java8", 25));
+        } else {
             employee = null;
         }
         return Optional.ofNullable(employee);
@@ -26,7 +27,7 @@ public class SupplierTest06 {
 
 }
 
-class Employee{
+class Employee {
 
     private Long id;
     private String name;
@@ -48,5 +49,5 @@ class Employee{
     }
 }
 /**
- Employee{id=2, name='christmas', age=2020}
+ * Employee{id=2, name='christmas', age=2020}
  */

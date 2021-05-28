@@ -27,10 +27,10 @@ public class BiConsumerTest01 {
 
     }
 
-    static void putMap(String key,Integer value, BiConsumer<String, Integer> biConsumer){
-        biConsumer.accept(key,value);
+    static void putMap(String key, Integer value, BiConsumer<String, Integer> biConsumer) {
+        biConsumer.accept(key, value);
     }
 }
 /**
- {java=8, biConsumer..=2, biConsumer=2, java..=8}
+ * {java=8, biConsumer..=2, biConsumer=2, java..=8}
  */

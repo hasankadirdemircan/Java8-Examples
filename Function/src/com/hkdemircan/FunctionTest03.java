@@ -9,6 +9,7 @@ public class FunctionTest03 {
         System.out.println(employeeToStringName.apply(emp));
     }
 }
+
 class Employee {
     private String name;
     private Integer age;
@@ -26,6 +27,7 @@ class Employee {
         return age;
     }
 }
-/**Outputs:
- hkdemircan
+/**
+ * Outputs:
+ * hkdemircan
  */

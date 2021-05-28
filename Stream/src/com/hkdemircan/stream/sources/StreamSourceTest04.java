@@ -22,11 +22,11 @@ public class StreamSourceTest04 {
     }
 }
 /**
- wait
- equals
- toString
- hashCode
- getClass
- notify
- notifyAll
+ * wait
+ * equals
+ * toString
+ * hashCode
+ * getClass
+ * notify
+ * notifyAll
  */

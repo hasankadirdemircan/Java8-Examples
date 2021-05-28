@@ -1,20 +1,20 @@
 package interfaces;
 
-interface Animal{
-    public default void eat(){
+interface Animal {
+    public default void eat() {
         System.out.println("eating..");
     }
 
-    public default void run(){
+    public default void run() {
         System.out.println("running..");
     }
 
-    public static void breathe(){
+    public static void breathe() {
         System.out.println("breathing..");
     }
 }
 
-class Dog implements Animal{
+class Dog implements Animal {
     // interface'lerde yer alan default methodlari override edebiliriz.
 
     @Override
@@ -22,6 +22,7 @@ class Dog implements Animal{
         System.out.println("Dog running..");
     }
 }
+
 public class InterfaceFeatureTest02 {
 
     public static void main(String[] args) {
@@ -30,7 +31,7 @@ public class InterfaceFeatureTest02 {
         animal.run();
 
         Animal.breathe(); // interface'de bulunan static methodlari cagirabiliyoruz.(interfaceAdi.staticMethodAdi).
-       // Dog.run(); // legal degildir.
+        // Dog.run(); // legal degildir.
         // Dog.breathe(); // legal degildir.
 
         // interface'lerdeki static methodlari sadece,
@@ -47,12 +48,12 @@ public class InterfaceFeatureTest02 {
 
 }
 
-class Super{
-    public static void message(){
+class Super {
+    public static void message() {
         System.out.println("hello static method in class");
     }
 }
 
-class Sub extends Super{
+class Sub extends Super {
 
 }

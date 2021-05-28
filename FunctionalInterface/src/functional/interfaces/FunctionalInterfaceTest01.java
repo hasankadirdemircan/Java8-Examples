@@ -1,7 +1,7 @@
 package functional.interfaces;
 
 @FunctionalInterface
-interface Interfae{
+interface Interfae {
     public void abstractMethod();
     // 1 tane abstract method olmali.
     // 1 den az veya cok olursa compiler hatasi verir.

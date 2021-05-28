@@ -1,13 +1,14 @@
 package functional.interfaces;
 
 @FunctionalInterface
-interface FuncInterface{
+interface FuncInterface {
     void eat();
 }
 
-class Cat{
+class Cat {
 
 }
+
 public class LambdaTest07 {
 
     public static void main(String[] args) {

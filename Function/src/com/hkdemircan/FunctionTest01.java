@@ -23,9 +23,10 @@ public class FunctionTest01 {
 
     }
 }
-/**Outputs:
- 798
- 5000
- 600
- 700
+/**
+ * Outputs:
+ * 798
+ * 5000
+ * 600
+ * 700
  */

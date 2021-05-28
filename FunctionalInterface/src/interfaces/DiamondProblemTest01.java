@@ -1,22 +1,22 @@
 package interfaces;
 
-interface MyInterface1{
-    public default void defaultMethod(){
+interface MyInterface1 {
+    public default void defaultMethod() {
         System.out.println("MyInterface1 defaultMethod");
     }
 
     public abstract void test();
 }
 
-interface MyInterface2{
-    public default void defaultMethod(){
+interface MyInterface2 {
+    public default void defaultMethod() {
         System.out.println("MyInterface2 defaultMethod");
     }
 
     public abstract void test();
 }
 
-class DiamondProblem implements MyInterface1, MyInterface2{
+class DiamondProblem implements MyInterface1, MyInterface2 {
 
     @Override
     public void defaultMethod() {

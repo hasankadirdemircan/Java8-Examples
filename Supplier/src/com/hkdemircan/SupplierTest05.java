@@ -11,14 +11,14 @@ public class SupplierTest05 {
         System.out.println(name);
     }
 
-    private static Optional<String> findNameById(Long id){
+    private static Optional<String> findNameById(Long id) {
         String name = null;
-        if(id == 1L){
+        if (id == 1L) {
             name = "java8";
         }
         return Optional.ofNullable(name);
     }
 }
 /**
- static name
+ * static name
  */

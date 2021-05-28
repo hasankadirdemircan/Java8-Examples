@@ -25,9 +25,10 @@ public class FunctionTest02 {
         System.out.println(f4.apply(-700));
     }
 }
-/**Outputs:
- 798
- 5000
- 600
- 700
+/**
+ * Outputs:
+ * 798
+ * 5000
+ * 600
+ * 700
  */

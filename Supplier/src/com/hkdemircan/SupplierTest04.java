@@ -12,7 +12,7 @@ public class SupplierTest04 {
     public static void main(String[] args) {
         Stream.of("Java8", "Supplier", "Example")
                 .forEach(name -> {
-                    printNames(()-> name);
+                    printNames(() -> name);
                 });
 
         List<String> stringList = Stream.generate(SupplierTest04::createNewString)
@@ -24,13 +24,14 @@ public class SupplierTest04 {
     private static void printNames(Supplier<String> supplier) {
         System.out.println(supplier.get());
     }
-    private static String createNewString(){
+
+    private static String createNewString() {
         return new String();
     }
 }
 /**
- Java8
- Supplier
- Example
- 10
+ * Java8
+ * Supplier
+ * Example
+ * 10
  */

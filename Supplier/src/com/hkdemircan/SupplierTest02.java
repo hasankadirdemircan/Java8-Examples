@@ -20,17 +20,18 @@ public class SupplierTest02 {
         Supplier<Integer> supplier03 = SupplierTest02::createRandomNumber;
 
     }
-    public static Integer createRandomNumber(){
+
+    public static Integer createRandomNumber() {
         return new Random().nextInt();
     }
 }
 /**
-5
-1
-2
-19
-19
----------------
-920832475
-320474040
+ * 5
+ * 1
+ * 2
+ * 19
+ * 19
+ * ---------------
+ * 920832475
+ * 320474040
  */

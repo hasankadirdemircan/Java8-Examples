@@ -12,7 +12,7 @@ public class StreamSourceTest08 {
     }
 }
 /**
-java
-8
-streams
+ * java
+ * 8
+ * streams
  */

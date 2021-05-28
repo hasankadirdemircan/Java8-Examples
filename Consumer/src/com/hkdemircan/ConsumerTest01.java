@@ -5,7 +5,7 @@ import java.util.function.Consumer;
 public class ConsumerTest01 {
 
     public static void main(String[] args) {
-	    // we can say consumer.
+        // we can say consumer.
         // java.util.Function paketinde yer alir.
         // void accept(T t);
 
@@ -17,6 +17,7 @@ public class ConsumerTest01 {
 
     }
 }
-/**Outputs:
-JAVA
-*/
+/**
+ * Outputs:
+ * JAVA
+ */
