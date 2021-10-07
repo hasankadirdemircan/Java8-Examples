@@ -12,6 +12,7 @@ Türkçe kaynak oluşturmayı amaçlıyorum.
 - [Function](#function)
 - [Supplier](#supplier)
 - [BiFunction & BiConsumer & BiPredicate](#binary)
+- [Optional](#optional)
 
 ## Functional Interface
 - [Blog](https://medium.com/@hkdemircan/functional-interface-lambda-expression-diamond-problem-a30072af52c2)
@@ -36,4 +37,8 @@ Türkçe kaynak oluşturmayı amaçlıyorum.
 ## Binary
 - [Blog](https://hkdemircan.medium.com/java-8-bifunction-bipredicate-biconsumer-d0f680f760c2)
 - [Java](https://github.com/hasankadirdemircan/Java8-Examples/tree/master/Binary/src/com/hkdemircan)
+
+## Optional
+- [Blog](https://hkdemircan.medium.com/java8-optional-4d26524141e6)
+- [Java](https://github.com/hasankadirdemircan/Java8-Examples/tree/master/Optional/src/com/hkdemircan)
 
