@@ -13,6 +13,8 @@ Türkçe kaynak oluşturmayı amaçlıyorum.
 - [Supplier](#supplier)
 - [BiFunction & BiConsumer & BiPredicate](#binary)
 - [Optional](#optional)
+- [ExceptionHandling](#exception-handling)
+- [ResourceBundle](#resourcebundle)
 
 ## Functional Interface
 - [Blog](https://medium.com/@hkdemircan/functional-interface-lambda-expression-diamond-problem-a30072af52c2)
@@ -42,3 +44,9 @@ Türkçe kaynak oluşturmayı amaçlıyorum.
 - [Blog](https://hkdemircan.medium.com/java8-optional-4d26524141e6)
 - [Java](https://github.com/hasankadirdemircan/Java8-Examples/tree/master/Optional/src/com/hkdemircan)
 
+## Exception Handling
+- [Blog](https://hkdemircan.medium.com/java8-exception-handling-e73f33611a05)
+- [Java](https://github.com/hasankadirdemircan/Java8-Examples/tree/master/ExceptionHandling/src/com/hkdemircan)
+
+## ResourceBundle
+- [Java](https://github.com/hasankadirdemircan/Java8-Examples/tree/master/ResourceBundle/src/com/hkdemircan)
