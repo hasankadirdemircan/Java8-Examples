@@ -52,6 +52,5 @@ Türkçe kaynak oluşturmayı amaçlıyorum.
 ## ResourceBundle
 - [Java](https://github.com/hasankadirdemircan/Java8-Examples/tree/master/ResourceBundle/src/com/hkdemircan)
 
-
 ## JavaNio2
-- [Java](https://github.com/hasankadirdemircan/Java8-Examples/tree/master/ResourceBundle/src/com/hkdemircan)
+- [Java](https://github.com/hasankadirdemircan/Java8-Examples/tree/master/java-nio2/src/com/hkdemircan)
