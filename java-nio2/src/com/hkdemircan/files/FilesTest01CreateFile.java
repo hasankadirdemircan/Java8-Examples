@@ -5,7 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class FilesTest01 {
+public class FilesTest01CreateFile {
     //CREATE FILE
     public static void main(String[] args) throws IOException {
         //came from Java7 - Files

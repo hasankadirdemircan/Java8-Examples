@@ -5,7 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class FilesTest03 {
+public class FilesTest03CompareFiles {
     public static void main(String[] args) throws IOException {
         Path path1 = Paths.get("folder");
         Path path2 = path1.toAbsolutePath();

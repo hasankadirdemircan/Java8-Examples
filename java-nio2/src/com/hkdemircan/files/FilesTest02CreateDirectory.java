@@ -5,7 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class FilesTest02 {
+public class FilesTest02CreateDirectory {
     //CREATE DIRECTORY - DIRECTORIES
     public static void main(String[] args) throws IOException {
         Path path1 = Paths.get("folder");
