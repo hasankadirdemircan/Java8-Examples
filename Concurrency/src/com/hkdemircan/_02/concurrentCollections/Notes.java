@@ -1,4 +1,4 @@
-package com.hkdemircan.concurrentCollections;
+package com.hkdemircan._02.concurrentCollections;
 
 public class Notes {
 

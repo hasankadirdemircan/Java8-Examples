@@ -1,4 +1,4 @@
-package com.hkdemircan.synchronizedCollections;
+package com.hkdemircan._03.synchronizedCollections;
 
 public class Notes {
     //When should you use these methods?

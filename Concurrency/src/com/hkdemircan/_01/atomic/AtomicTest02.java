@@ -1,4 +1,4 @@
-package com.hkdemircan.atomic;
+package com.hkdemircan._01.atomic;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

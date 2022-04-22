@@ -1,4 +1,4 @@
-package com.hkdemircan.synchronizedCollections;
+package com.hkdemircan._03.synchronizedCollections;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -11,7 +11,7 @@ public class SynchronizedCollectionsTtest01 {
 
         //What is the difference between Collections.synchronizedList and Concurrent Collection?
         //When we use synchronized keyword,
-        
+
 //		synchronized(this) {
 //			numbers.add(....);
 
